@@ -5,9 +5,10 @@ import { AppComponent } from './app.component';
 import { MovieListComponent } from './components/movie-list/movie-list.component';
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
 import { MovieCardComponent } from './components/movie-card/movie-card.component';
+import { MyDurationPipe } from './pipes/my-duration.pipe';
 
 @NgModule({
-	declarations: [AppComponent, MovieListComponent, MovieDetailsComponent, MovieCardComponent],
+	declarations: [AppComponent, MovieListComponent, MovieDetailsComponent, MovieCardComponent, MyDurationPipe],
 	imports: [BrowserModule],
 	providers: [],
 	bootstrap: [AppComponent],
